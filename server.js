@@ -3,7 +3,7 @@ const dotenv = require('dotenv').config();
 const colors = require('colors');
 
 const app=require("./app")
-
+// 
 //database connection
 mongoose.connect(process.env.DATABASE_LOCAL).then(()=>{
     console.log(`Succeeded to connect the database`.red.bold)
